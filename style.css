@@ -1,0 +1,100 @@
+*{
+   padding: 0px;
+   margin: 0px;
+}
+body{
+    background-image: url("asset/googlebgi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#top{
+    text-align: right;
+    
+}
+a{
+    margin: 5px;
+    color: white;
+}
+#input{
+    
+    margin-top: 100px;
+    font-size: 100px;
+}
+#middle{
+    margin-left: 550px ;
+    
+}
+#searchbar{
+    padding-left: 35px;
+    border: 2px solid white;
+    position: absolute;
+    left:500px;
+    margin-top: 50px;
+    height: 30px;
+    width: 370px;
+    border-radius: 50px;
+
+
+    
+}
+.fa-magnifying-glass{
+    position: absolute;
+    left: 510px;
+    top:292px;
+}
+.fa-microphone{
+    position: absolute;
+    left: 860px;
+    top:292px;
+}
+.fa-camera{
+    position: absolute;
+    left: 880px;
+    top: 294px;
+    font-size: 13px;
+}
+#bottom{
+    position: absolute;
+    
+    width: 350px;
+    font-size: 11px;
+    
+    a{
+        color: white;
+        margin-left: 30px;
+        
+    }
+    top: 550px; 
+}
+#box{
+    height: 80px;
+    width: 80px;
+    padding-left: 18px;
+    padding-top: 18px;
+    #shortcut{
+        height: 60px;
+        width: 60px;
+        background: white;
+        border-radius: 50%;
+        i{
+            margin-left: 17px;
+            margin-top: 17px;
+            font-size: 30px;
+        }
+        
+    }
+    position: absolute;
+    left: 650px;
+    top:332px;
+}
+#box:hover{
+    background-color:rgba(128, 128, 128, 0.473);
+    border-radius: 10px;
+}
+#pen{
+    position: absolute;
+    left: 1295px;
+    color: aliceblue;
+    top: 560px;
+    font-size: small;
+}
